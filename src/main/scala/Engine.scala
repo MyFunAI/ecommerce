@@ -15,7 +15,7 @@ class ActualResult(
   val label: Double
 ) extends Serializable
 
-object ClassificationEngine extends IEngineFactory {
+object EcommerceEngine extends IEngineFactory {
   def apply() = {
     new Engine(
       classOf[DataSource],

@@ -1,2 +1,5 @@
 /target/
 /.idea/
+pio.log
+/project/project/
+project/target/

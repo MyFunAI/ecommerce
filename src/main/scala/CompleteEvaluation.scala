@@ -5,7 +5,7 @@ import io.prediction.controller.MetricEvaluator
 
 object CompleteEvaluation extends Evaluation {
   engineEvaluator = (
-    ClassificationEngine(),
+    EcommerceEngine(),
     MetricEvaluator(
       metric = Accuracy(),
       otherMetrics = Seq(Precision(0.0), Precision(1.0), Precision(2.0)),
